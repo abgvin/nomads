@@ -56,7 +56,8 @@ header {
     margin-top: -70px;
     background-size: cover;
 
-    h1, p {
+    h1,
+    p {
         color: #fff;
     }
 
@@ -108,12 +109,13 @@ header {
     background-color: #051334;
     margin-top: -50px;
     margin-bottom: -230px;
-    
+
     .section-popular-heading {
         margin-top: 150px;
 
 
-        h2, p {
+        h2,
+        p {
             color: #fff;
         }
 
@@ -163,10 +165,10 @@ header {
                 }
             }
 
-           
+
         }
     }
-    
+
 
 }
 
@@ -319,6 +321,104 @@ header {
         color: #b1b1b1;
     }
 
+    .trip-information {
+        th {
+            font-weight: 300;
+            font-size: 18px;
+            color: #071c4d;
+        }
+
+        td {
+            font-weight: 300;
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+
+        .text-blue {
+            color: #071c4d;
+            font-weight: bold;
+        }
+
+        .text-orange {
+            color: #ff9e53;
+            font-weight: bold;
+        }
+    }
+
+    .payment-instruction {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+
+    .bank {
+        .bank-item {
+            h3 {
+                font-size: 18px;
+                color: #71c4d7;
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #071c4d;
+                }
+            }
+        }
+
+        .bank-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 14px;
+        color: #071c4d;
+    }
+
+    .disclaimer {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+        .datepicker {
+            border-right: none;
+        }
+
+        .input-group-append {
+            .btn {
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .btn-add-now {
+        background-color: #071c4d;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #222630;
+            color: #FFFFFF;
+        }
+    }
+
+
+
     .features {
         margin-top: 20px;
 
@@ -354,7 +454,7 @@ header {
                 box-shadow: none;
                 margin-bottom: 10px;
             }
-            
+
             .xactive {
                 border: 4px solid #1ABC9C;
                 box-shadow: none;
@@ -379,6 +479,7 @@ header {
 
 .join-container {
     margin-top: -16px;
+
     .btn-join-now {
         border-radius: 0;
         background-color: #ff9e53;
@@ -391,5 +492,29 @@ header {
     }
 }
 
+.section-success {
+    height: 90vh;
 
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #071c4d;
+    }
 
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background-color: #071c4d;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #2a488e;
+            color: #FFFFFF;
+        }
+    }
+}
